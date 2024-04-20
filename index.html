@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CounterDown</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">DISPLAY</div>
+            <div class="num">1-800-500-1234</div>
+        </div>
+    </header>
+    <div class="counter">
+        <div class="container">
+            <h1>ONLINE COUNTDOWN TIMER !</h1>
+            <div class="count">
+                <div class="box">
+                    <div class="hour">
+                        <span class="num" id="numHour">00</span> 
+                        <span> :</span>
+                        <div>Hour</div>
+                    </div>
+                    <div class="minute">
+                        <span class="num" id="numMinute">00</span> 
+                        <span> :</span>
+                        <div>Minute</div>
+                    </div>
+                    <div class="secound">
+                        <span class="num" id="numSecound">00</span>
+                        <div>Secound</div>
+                    </div>
+                </div>
+            </div>
+            <div class="control">
+                <form action="">
+                    <input type="text" value="0"  id="eHour">
+                    <input type="text"  value="0" id="eMinute">
+                    <input type="text"  value="0" id="eSecound">
+                </form>
+                <button class="btn w-20 btn-info " id="s-btn">Start</button>
+                <button class="btn w-20 btn-warning " id="p-btn">Resume</button>
+                <button class="btn w-20 btn-danger " id="sp-btn">Stop</button>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
